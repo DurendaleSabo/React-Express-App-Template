@@ -12,6 +12,7 @@ npm install             # To get things going (download all neccessary packages)
 
 ## Use
 
+* Use `npm install` to install all dependencies.
 * To use it first build the react app with `npm run build` then start the server with `npm run start`.
 
 ## Available npm scripts
