@@ -1,12 +1,10 @@
 # Your amazing app
 
 ## Description
-Welcome to my great app.
+Here is a template for using an express backend with a react frontend.
 
 ## Setup
-```
-npm install             # To get things going (download all neccessary packages)
-```
+
 * Use the `.env` file to hide any information (like API keys) from the repository
 * Add any file or folder to `.gitignore` to have it not uploaded to the repository
 
