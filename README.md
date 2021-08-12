@@ -12,6 +12,7 @@ Here is a template for using an express backend with a react frontend.
 
 * Use `npm install` to install all dependencies.
 * To use it first build the react app with `npm run build` then start the server with `npm run start`.
+* Or you can just do `npm run build/run` to do both.
 
 ## Available npm scripts
 
@@ -19,4 +20,5 @@ Here is a template for using an express backend with a react frontend.
 npm run start           # Start the node js server
 npm run dev             # Start the node js server with nodemon
 npm run build           # Start webpack (build the bundle js file)
+npm run build/run       # Build and start the node js server
 ```
