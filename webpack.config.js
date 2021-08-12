@@ -1,6 +1,9 @@
+
 module.exports = {
-	entry: __dirname + '/src/App.js',
-	mode: 'production',
+	entry: __dirname + '/src/Index.js',
+	mode: 'development',
+	// mode: 'production',
+	devtool: 'cheap-module-source-map',
 	output: {
 		path: __dirname + '/public/js',
 		filename: 'bundle.js'
@@ -15,7 +18,13 @@ module.exports = {
 					options: {
 						presets: [
 							['@babel/preset-env'],
-							['@babel/preset-react']
+							[
+								'@babel/preset-react',
+								{ "runtime": "automatic" }
+							]
+						],
+						plugins: [
+							["@babel/plugin-proposal-class-properties"]
 						]
 					}
 				}
