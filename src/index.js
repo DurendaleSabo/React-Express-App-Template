@@ -13,7 +13,7 @@ const App = () => {
 		<Header/>
 	<Card.Body>
 	Bonjours à toi,
-	notre start up VAGHYC à pour but de créer, innover et développer !
+	notre start up VHAGYC à pour but de créer, innover et développer !
 	A travers nos différentes application d'aujourd’hui et de demain nous comptons démocratiser les activités nautiques et les rendre accessibles au plus grand nombre.
 	</Card.Body>
 		<Carroussel/>

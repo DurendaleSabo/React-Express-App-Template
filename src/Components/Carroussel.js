@@ -23,8 +23,9 @@ const Carroussel = () => {
       />
   
       <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3>Waze des Mers
+        </h3>
+        <p>les projet de VHAGYC</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -36,7 +37,7 @@ const Carroussel = () => {
   
       <Carousel.Caption>
         <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <p>les projet de VHAGYC</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -48,7 +49,7 @@ const Carroussel = () => {
   
       <Carousel.Caption>
         <h3>4slide </h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <p>les projet de VHAGYC</p>
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
